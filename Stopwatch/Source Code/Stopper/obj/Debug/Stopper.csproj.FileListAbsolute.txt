@@ -1,0 +1,15 @@
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\bin\Debug\Stopper.exe.config
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\bin\Debug\Stopper.exe
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\bin\Debug\Stopper.pdb
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\obj\Debug\Stopper.csprojAssemblyReference.cache
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\obj\Debug\MainWindow.g.cs
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\obj\Debug\App.g.cs
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\obj\Debug\Stopper_MarkupCompile.cache
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\obj\Debug\Stopper_MarkupCompile.lref
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\obj\Debug\MainWindow.baml
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\obj\Debug\Stopper.g.resources
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\obj\Debug\Stopper.Properties.Resources.resources
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\obj\Debug\Stopper.csproj.GenerateResource.cache
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\obj\Debug\Stopper.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\obj\Debug\Stopper.exe
+C:\Users\Sebastian\Documents\Visual_Studio_Projects\WPF_Applications\Stopper\Stopper\obj\Debug\Stopper.pdb

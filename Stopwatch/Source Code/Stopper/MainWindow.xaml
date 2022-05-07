@@ -1,0 +1,112 @@
+﻿<Window x:Class="Stopper.MainWindow" x:Name="mWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stopper"
+        mc:Ignorable="d"
+        Title="Watch" Height="350" Width="250" Icon="StopwatchIcon.ico" Background="WhiteSmoke" >
+    
+    <Window.Resources>
+        <Style x:Key="MouseOverColor" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        
+        <!-- Definicja wierszy i kolumn dla panelu Grid-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Definicja Menu-->
+        <Menu x:Name="menu" Grid.Row="0" Grid.Column="0" Background="WhiteSmoke"  >
+            <MenuItem Header="View" Height="25">
+                <MenuItem Header="Background">
+                    <MenuItem x:Name="menuGrey" Header="Grey" IsCheckable="True" Checked="GreyOn_Click" 
+                              Unchecked="GreyOff_Click"/>
+                    
+                    <MenuItem x:Name="menuWhite" Header="White" IsCheckable="True" 
+                              Checked="WhiteOn_Click" Unchecked="WhiteOff_Click"/>
+                </MenuItem>
+                <MenuItem Header="Size">
+                    <MenuItem Header="Default" Click="Default_Click" />
+                </MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="Help">
+                <MenuItem Header="About program" Click="AProgram_Click"/>
+            </MenuItem>
+
+        </Menu>
+        
+        <!-- Definicja zawartości Border/TabControl-->
+        <Border Padding="10" Grid.Row="1" Grid.Column="0">
+            <TabControl>
+                <TabItem>
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Rysunki/stoper.jpg"
+                                   MaxHeight="20" MaxWidth="20"/>
+                            <TextBlock Text="Stoper" Foreground="Black" FontWeight="Bold" Padding="5,1"/>
+                        </StackPanel>
+                    </TabItem.Header>
+
+                    <!--Stopper-->
+                    <StackPanel>
+                        <TextBlock x:Name="txtTime" Margin="20,40,20,0" Height="50" Text="00:00:00" 
+                       FontWeight="Bold" FontSize="32" TextAlignment="Center"/>
+
+                        <!--Buttons-->
+                        <Button x:Name="btnStart" Click="BtnStart_Click" Content="Start" Margin="10,20,10,0" Width="120" Height="40"
+                    FontSize="24" FontWeight="Bold" Background="LimeGreen" Style="{StaticResource MouseOverColor}"/>
+
+
+                        <Button x:Name="btnReset" Click="BtnReset_Click" Content="Reset" Margin="10,10,10,0" Width="120" Height="40"
+                    FontSize="24" FontWeight="Bold" Background="DarkTurquoise" Style="{StaticResource MouseOverColor}"/>
+                    </StackPanel>
+
+                </TabItem>
+                <TabItem>
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Rysunki/sandclock.jpg"
+                        MaxHeight="20" MaxWidth="20"/>
+                            <TextBlock Text="Timer" Foreground="Black" FontWeight="Bold" Padding="5,1"/>
+                        </StackPanel>
+                    </TabItem.Header>
+
+                    <!--Timer-->
+                    <StackPanel>
+                        <TextBox x:Name="txtCountTime" Margin="20,40,20,0" Height="50" Text="00:00:00" 
+                        FontWeight="Bold" FontSize="32" TextAlignment="Center" BorderThickness="0" />
+
+                        <!--Buttons-->
+                        <Button x:Name="btnCountStart" Click="BtnCountStart_Click" Content="Count" Margin="10,20,10,0" Width="120" Height="40"
+                        FontSize="24" FontWeight="Bold" Background="LimeGreen" Style="{StaticResource MouseOverColor}"/>
+
+
+                        <Button x:Name="btnCountReset" Click="BtnCountReset_Click" Content="Reset" Margin="10,10,10,0" Width="120" Height="40"
+                        FontSize="24" FontWeight="Bold" Background="DarkTurquoise" Style="{StaticResource MouseOverColor}"/>
+                    </StackPanel>
+
+                </TabItem>
+            </TabControl>
+            
+        </Border>
+ 
+    </Grid>
+</Window>

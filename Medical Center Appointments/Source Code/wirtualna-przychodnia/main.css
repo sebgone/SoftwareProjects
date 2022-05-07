@@ -1,0 +1,281 @@
+body
+{
+	margin: 0;
+	background-image: url("source/fresh_snow.png");
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p
+{
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+hr
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 1px solid #ddd;
+}
+
+a:link    { color: #316c31; text-decoration: none; }
+a:visited { color: #316c31; }
+a:active  { color: #316c31; }
+a:hover   { color: #427d42; }
+
+#zegar
+{   
+	float: left;
+	width: 220px;
+	color: #aaa;
+}
+
+#title
+{
+	float: left;
+	width: 260px;
+}
+
+.panel
+{
+	font-size: 30px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+	margin-right: 5px;
+	margin-left:5px;
+}
+
+.return
+{
+	display: block;
+	text-align: justify;
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+.mainlogo
+{
+	width: 100%;
+	height: 100px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+	background-color: #316c31;
+	border: 1px solid #f9f9f9;
+}
+@keyframes example {
+  0%   {background-color: green;}
+  25%  {background-color: #316c31;}
+  50%  {background-color: #427d42;}
+  100% {background-color: green;}
+}
+h1.logo
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color:#f9f9f9;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	position: relative;
+}
+@keyframes move {
+  from {left: 0px;}
+  to {left: 100px;}
+  
+ }
+ 
+.container
+{
+	width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#mainsnake
+{
+	width: 490px;
+    height: 540px;
+}
+
+ .graphicLeft
+{
+	transition-duration: 0.8s;
+	transition-property: transform;
+	float: left;
+	width: 490px;
+	margin-right: 20px;
+	text-align: center; 
+	
+
+} 
+.startPanelRight
+{
+	font-size: 25px;
+	float: left;
+	width: 490px;
+	height: 500px;
+	text-align: center;
+	padding-top: 40px;
+	background-color: white;
+}
+
+.PatientPanelLeft
+{
+	float: left;
+	width: 490px;
+	margin-right: 20px;
+	height: 500px;
+	text-align: center;
+	padding-top: 40px;
+	background-color: white;
+}
+
+.PatientPanelRight
+{
+	font-size: 15px;
+	float: left;
+	width: 490px;
+	height: 500px;
+	text-align: center;
+	padding-top: 40px;
+	background-color: white;
+}
+
+.buttonLP
+{
+	width: 300px;
+	background-color: #316c31;
+	font-size: 30px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+.buttonLP:hover
+{
+	background-color: #427d42;
+}
+
+.buttonConfirm
+{
+	width: 100px;
+	background-color: #eee;
+	font-size: 15px;
+	color: black;
+	padding: 15px 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+.buttonConfirm:hover
+{
+	background-color: #ddd;
+}
+
+input[type=text],
+input[type=date],
+input[type=password]
+{
+	width: 300px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input[type=text]:focus,
+input[type=date]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid #ccc;
+	background-color: #efefef;
+	color: #666;
+}
+
+.contact
+{
+	width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	background-color:#316c31;
+	color: white;
+}
+
+.con
+{   
+	float: left;
+	width: 300px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+
+.info
+{
+	clear: both;
+	text-align: center;
+	background-color: #f9f9f9;
+	color: black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.DaneTable
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+.DaneTable a 
+{
+	color: white;
+}
+
+.DaneTable a:hover { text-decoration: underline; }
+
+th, td
+{
+	border: 1px solid gray;
+	border-radius: 2px;
+	padding: 4px;
+	width: 100%;
+	font-size: 15px;
+}
+
+td
+{
+	background-color: #6b947b;
+	font-size: 14px;
+	color: white;
+}
