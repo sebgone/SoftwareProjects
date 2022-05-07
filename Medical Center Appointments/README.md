@@ -19,6 +19,8 @@ Wirtualna Przychodnia it is local web application which helps to manage appointm
 * Visits are available five days a week, from 8 to 16 every 30 min  
 
 ## Main page example:
+* [source code](https://github.com/sebgone/SoftwareProjects/tree/sebgone-update/Medical%20Center%20Appointments/Source%20Code/wirtualna-przychodnia)
 
+<img src="https://github.com/sebgone/SoftwareProjects/blob/sebgone-update/Medical%20Center%20Appointments/index.png" width="600">
 
 
